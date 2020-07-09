@@ -11,7 +11,7 @@ VOLUME ["/usr/portage", "/usr/portage/distfiles", "/usr/portage/packages", "/var
 ### ADD Base Image for mnt Loop and load emulation etc.  AMD64 Busybox for utils in docker on amd64 hosts.. 
 ADD https://busybox.net/downloads/binaries/1.28.1-defconfig-multiarch/busybox-x86_64 /busybox/busybox
 ### ADD Base Image
-# gentoo-on-rpi3-64bit up to 2020... 
+# gentoo-on-rpi3-64bit up to 2020... mkstage4 mksure craps not missing by adding base. 
 ADD https://www.dropbox.com/s/a1dg494reri9pav/gentoorpi64-back.tar.gz.tar.bz2?dl=0   / 
 ## hotpatch docker make.conf bihost.
 ## Fix to new binhost. 
